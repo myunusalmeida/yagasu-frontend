@@ -12004,6 +12004,11 @@ section .title {
   font-weight: 600;
   font-family: "Oswald", sans-serif;
 }
+@media (max-width: 767.98px) {
+  section .title {
+    font-size: 40px;
+  }
+}
 section .subtitle {
   font-size: 0.875rem;
   font-weight: 600;
@@ -12127,6 +12132,9 @@ header.home-header .carousel .carousel-item img {
   header.home-header {
     min-height: 100vh;
   }
+  header.home-header .header-content {
+    margin-top: 70px;
+  }
   header.home-header .header-title {
     font-size: 40px;
   }
@@ -12137,6 +12145,11 @@ header.home-header .carousel .carousel-item img {
 
 .about-section .title {
   font-size: 70px;
+}
+@media screen and (max-width: 768px) {
+  .about-section .title {
+    font-size: 40px;
+  }
 }
 
 .programs-section .program-items .program-item {
@@ -12212,6 +12225,11 @@ header.home-header .carousel .carousel-item img {
   height: 400px;
   background-size: cover;
 }
+@media screen and (max-width: 768px) {
+  .what-is-section .video {
+    height: 260px;
+  }
+}
 
 .news-section .card {
   transition: 0.3s;
@@ -12224,13 +12242,18 @@ header.home-header .carousel .carousel-item img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+  .news-section .card .card-img-top {
+    height: 200px;
+  }
+}
 
 .subscribe-section .title {
   font-size: 52px;
 }
 @media screen and (max-width: 768px) {
   .subscribe-section .title {
-    font-size: 40px;
+    font-size: 30px;
   }
   .subscribe-section .border-end {
     border: none !important;
